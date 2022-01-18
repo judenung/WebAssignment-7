@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TechSec - Product</title>
+    <!-- shows in browser tab-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- external css links -->
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.ico" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+  </head>
+
+  <body id="top">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img class="UpArrow_style" src="../images/Up-Arrow.svg" width="30" />
+    </button>
+
+    <!-- Navbar (sit on top) -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand" href="../index.html">
+        <img
+          loading="lazy"
+          src="../images/logo.svg"
+          alt=""
+          height="50"
+          class="d-inline-block logo"
+        />
+      </a>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto text-center mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="../pages/product.html">PRODUCT</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/forum.html">FORUM</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/login.html">LOGIN</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ABOUT
+            </a>
+            <div
+              class="dropdown-menu text-center"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item" href="../pages/about.html">About Us</a>
+              <a class="dropdown-item" href="../pages/contact.html"
+                >Contact Us</a
+              >
+              <a class="dropdown-item" href="../pages/faq.html">FAQ</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../pages/pp.html"
+                >Privacy Policy</a
+              >
+              <a class="dropdown-item" href="../pages/tos.html"
+                >Terms of Service</a
+              >
+              <a class="dropdown-item" href="../pages/tracking.html"
+                >Tracking</a
+              >
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 justify-content-center">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <img
+              loading="lazy"
+              src="../images/mag.png"
+              alt=""
+              width="25"
+              height="25"
+            />
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Start body -->
+    <div class="m-3"></div>
+
+    <!-- End body -->
+  </body>
+  <footer class="text-center">
+    <h4 class="my-2">Subscribe to our Newsletter</h4>
+    <form class="form-inline my-2 justify-content-center">
+      <input
+        class="form-control mr-sm-2"
+        type="email"
+        placeholder="Email"
+        aria-label="Email"
+      />
+      <button class="btn btn-warning my-2 my-sm-2" type="submit">
+        Subscribe
+      </button>
+    </form>
+    <a href="https://www.techsec.cf/"
+      >© TechSec <span id="copyrightFooter"></span
+    ></a>
+  </footer>
+</html>
